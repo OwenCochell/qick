@@ -172,7 +172,7 @@ setup(
     extras_require={
         # install all extra optional dependencies
         'full': ['pyro4'],
-        'grpc': ['git+https://github.com/OwenCochell/qcat.git@grpc']
+        'grpc': ['qcat-grpc @ git+https://github.com/OwenCochell/qcat.git@grpc#subdirectory=qcat-python']
     },
 
     # If there are data files included in your packages that need to be
